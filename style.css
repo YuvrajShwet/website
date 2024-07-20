@@ -1,0 +1,47 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(https://media.istockphoto.com/id/2160262915/vector/dark-abstract-background-with-luminous-neon-triangles-modern-bright-background.jpg?s=612x612&w=0&k=20&c=FaxJGTzz7fALxq3c1n0_taPi2Ka2HaqJT05KFt9qozc=);
+    border: 2px solid black;
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+.logo{
+    /* height: 12vh; */
+    position: static;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.rectangle{
+    justify-content: center;
+    height: 12vh;
+    width: 100vw;
+    border: 5px solid white;
+}
+h1{
+    height: 100%;
+    width: 100%;
+    align-content: center;
+}
+.square{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    border: 5px solid white;
+    border-radius: 1rem;
+    
+
+}
+
