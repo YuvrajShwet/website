@@ -6,7 +6,7 @@
 }
 
 header{
-    background-image: url(https://media.istockphoto.com/id/2160262915/vector/dark-abstract-background-with-luminous-neon-triangles-modern-bright-background.jpg?s=612x612&w=0&k=20&c=FaxJGTzz7fALxq3c1n0_taPi2Ka2HaqJT05KFt9qozc=);
+    background-image: url(https://img.freepik.com/free-vector/futuristic-technology-background_23-2148497769.jpg?t=st=1722059211~exp=1722062811~hmac=1c97ec573dee8d0d981dd30e4f53e4d482b331511ab05448b30c3303604a5407&w=826);
     border: 2px solid black;
     height: 100vh;
     display: flex;
@@ -35,7 +35,10 @@ h1{
     width: 100%;
     align-content: center;
 }
+
 .square{
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.123);
     height: 90vh;
     width: 90vw;
     display: flex;
