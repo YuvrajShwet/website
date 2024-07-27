@@ -19,17 +19,58 @@ header{
 
 }
 
+.header-link li{
+    list-style-type: none;
+}
+.header-link a{
+    text-decoration: none;
+    color: white;
+    /* font-weight: 550; */
+}
+
+.header-link a:hover{
+    font-weight: 900;
+    border: 2px solid black;
+}
+.header-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 35%;
+}
+
+/* @media(min-device-width: 1000px) and (max-device-width: 1600px){
+    header{
+        background-image: url(backgroundimage/1597x667.jpg);
+    }
+    
+} */
 .logo{
     /* height: 12vh; */
-    position: static;
+    position: relative;
+    width: 20%;
+    /* display: flex; */
+    display: inline-block;
     text-align: center;
     color: white;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
 }
+
 .rectangle{
+    text-align: center;
     justify-content: center;
     height: 12vh;
     width: 100vw;
+    display: flex;
     border: 5px solid white;
 }
 h1{
