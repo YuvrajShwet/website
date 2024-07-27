@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AiBots</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function showInput() {
+            document.getElementById('inputText').style.display = 'inline';
+            document.getElementById('searchButton').style.display = 'none';
+            document.getElementById('inputText').focus();
+        }
+
+        function handleEnter(event) {
+            if (event.key === 'Enter') {
+                window.location.href = '#entered';
+            }
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -16,10 +29,21 @@
                 </div>
                 <a class="logo" href=""><h1>Ai Bots</h1></a>
                 <div class="searchbar">
-                    <input type="text" placeholder="Enter">
-                    <button onclick="www.google.com">search</button>
-                </div>
+                    <input type="text" id="inputText" onkeydown="handleEnter(event)" placeholder="Enter">
+                    <button id="searchButton" onclick="showInput()">Search</button>
+                </div>            
             </div>
+            <!-- <div class="squareel">
+                <div class="square-link">
+                    <ul><li><a href="#home">Home</a></li></ul>
+                    <ul><li><a href="#about">About</a></li></ul>
+                </div>
+                <div>
+                    <input type="text" placeholder="Search">
+                    <button>Search</button>
+                </div>
+            </div> -->
+            
         </div>
     </header>
     <main>
@@ -29,5 +53,7 @@
         Fugiat, repellat fugit quas, repudiandae illum mollitia quaerat saepe quos, laboriosam doloremque ipsam rem quod! Accusamus earum distinctio odio a consequatur voluptatibus, blanditiis iusto dolorum fugit perspiciatis ex. Natus, nihil!
         Similique, incidunt suscipit voluptatem distinctio quasi aut asperiores, laudantium nostrum quam maxime quisquam voluptatibus sed voluptates, pariatur veniam dolorem praesentium corporis exercitationem? Repudiandae, dolore recusandae laudantium voluptas sequi repellendus sint!
     </main>
+    
+<!-- /* this is last */ -->
 </body>
 </html>
